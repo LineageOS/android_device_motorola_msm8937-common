@@ -74,7 +74,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5 \
     android.hardware.camera.provider@2.5 \
-    android.hardware.camera.provider@2.5-service
+    android.hardware.camera.provider@2.5-service \
+    vendor.qti.hardware.camera.device@1.0
 
 # CNE
 PRODUCT_PACKAGES += \
