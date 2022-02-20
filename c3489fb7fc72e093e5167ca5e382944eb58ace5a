@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94bea888_239a6aa2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22856
+      },
+      "writtenOn": "2022-02-20T18:34:16Z",
+      "side": 1,
+      "message": "\u003e Patch Set 1:\n\u003e \n\u003e uhhhh are you trying to overwrite the users installed recovery?\n\nThis ships /vendor/etc/recovery.img instead of recovery-from-boot.p, thus allows the \"Update recovery\" option in the Updater app to work as intended even with a modified boot image (such as when Magisk is installed).",
+      "revId": "c3489fb7fc72e093e5167ca5e382944eb58ace5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
